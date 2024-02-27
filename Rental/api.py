@@ -2,7 +2,7 @@ from rest_framework import routers
 from rentals import views as rental_views
 router = routers.DefaultRouter()
 
-router.register(r'friends', rental_views.FriendViewSet)
-router.register(r'belongings', rental_views.BelongingViewSet)
+router.register(r'friends', rental_views.FriendViewset)
+router.register(r'belongings', rental_views.BelongingViewset)
 # router.register(r'borrowings', rental_views.BorrowedViewSet)
 
